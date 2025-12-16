@@ -1,0 +1,39 @@
+# Python
+#
+# Byte-code files
+*.pyc
+__pycache__
+# Distributions and packaging
+.Python
+build/
+dist/
+eggs/
+*.egg
+*.egg-info/
+# Environments
+.env
+.venv
+env/
+venv/
+# Specific files
+pip-log.txt
+pip-delete-this-arg.txt
+
+# React / Node.js
+#
+# Dependencies
+node_modules/
+# Build artifacts
+build/
+dist/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+# IDE-specific
+.idea/
+.vscode/
+# OS-specific
+.DS_Store
+Thumbs.db

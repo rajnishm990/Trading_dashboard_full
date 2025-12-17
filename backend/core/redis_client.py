@@ -21,13 +21,13 @@ async def init_redis():
             max_connections=50
         )
         await redis_client.ping()
-        logger.info("✅ Redis connection established")
+        logger.info(" Redis connection established")
         
         # Create consumer groups if they don't exist
         await create_consumer_groups()
         
     except Exception as e:
-        logger.error(f"❌ Redis connection failed: {e}")
+        logger.error(f" Redis connection failed: {e}")
         raise
 
 

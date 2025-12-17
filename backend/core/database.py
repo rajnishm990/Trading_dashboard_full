@@ -98,9 +98,9 @@ async def init_db():
         async with engine.begin() as conn:
             # Test connection
             await conn.execute(text("SELECT 1"))
-        logger.info("✅ Database connection established")
+        logger.info("Database connection established")
     except Exception as e:
-        logger.error(f"❌ Database connection failed: {e}")
+        logger.error(f"Database connection failed: {e}")
         raise
 
 
